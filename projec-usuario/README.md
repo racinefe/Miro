@@ -1,27 +1,41 @@
-# ProjecUsuario
+# Nome do Seu Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Uma breve descrição do seu projeto vai aqui.
 
-## Development server
+## Requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Assegure-se de que tem as versões corretas das ferramentas e tecnologias abaixo:
 
-## Code scaffolding
+### Versão Front-end
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular CLI**: 15.0.4
+- **Node**: 18.12.1
+- **Package Manager**: npm 9.2.0
 
-## Build
+## Instalação e Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório:
+   ```bash
+   git clone [URL_DO_SEU_REPOSITÓRIO]
 
-## Running unit tests
+2. Instale as dependências:
+   ```bash
+   npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Execute o projeto:
+   ```bash
+   ng serve
 
-## Running end-to-end tests
+## Licença
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+1. Abra o Visual Studio Code.
+2. Crie um novo arquivo ou abra o `README.md` existente.
+3. Cole o conteúdo acima.
+4. Salve o arquivo.
+5. Commit e push para o seu repositório.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Lembre-se de substituir `[URL_DO_SEU_REPOSITÓRIO]` pela URL do seu repositório e `[NOME_DA_PASTA_DO_PROJETO]` pelo nome da pasta do seu projeto (caso seja diferente). Além disso, personalize as partes que estão como placeholders, como "Nome do Seu Projeto", descrição, e assim por diante, para adequar ao seu projeto específico.
+
+
+
