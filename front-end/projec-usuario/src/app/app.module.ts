@@ -11,11 +11,14 @@ import {MatIconModule} from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { CadastroComponent } from './cadastro/cadastro.component';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    CadastroComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatIconModule,
     FormsModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
