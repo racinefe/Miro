@@ -24,17 +24,10 @@ public class CrudSpringApplication {
 			teste.setName("Racine fellipe");
 			teste.setEmail("teste@email_miro.com.br");
 
-			Usuario teste2 = new Usuario();
-			teste2.setName("jasinto pinto");
-			teste2.setEmail("teste2@email_miro.com.br");
-
-			Usuario teste3 = new Usuario();
-			teste3.setName("kiku lindo da silva");
-			teste3.setEmail("teste3@email_miro.com.br");
+			
 
 			usuarioRepository.save(teste);
-			usuarioRepository.save(teste2);
-			usuarioRepository.save(teste3);
+			
 
 			
 			
